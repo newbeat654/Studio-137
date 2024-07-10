@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/indexstyle.css">
+    <link rel="icon" type="image/png" href="src/faviconStudio137.png"/>
+    <title>Studio137</title>
+  </head>
+  <script src="java/indexjava.js"></script>
+  <body onload="loadFunc()">
+    <div class="general">
+
+      <div class="top">
+        <div id="top1">
+          <img class="studio137" src="src/studio137.svg" alt="" onclick="loadFunc()">
+        </div>
+        <div id="top2">
+
+        </div>
+        <div id="top3">
+          <p class="menu" id="servicios" onclick="menu('servicios')">Servicios</p>
+          <p class="menu" id="nosotros" onclick="menu('nosotros')">Nosotros</p>
+          <p class="menu" id="trayectoria" onclick="menu('trayectoria')">Trayectoria</p>
+          <p class="menu" id="contacto" onclick="menu('contacto')">Contacto</p>
+          <p class="menu" id="portafolio" onclick="portafolio()">Portafolio</p>
+        </div>
+        <div id="top4">
+
+        </div>
+      </div>
+      <div class="mid">
+        <div class="menu_general" id="menu_inicial">
+            <div class="topMI">
+              <h1>BIENVENIDOS</h1>
+            </div>
+              <div class="leftMI">
+                <img id="vec1" src="src/img/vec1.svg" alt="">
+              </div>
+              <div class="rightMI">
+                <p id="ini">La era del marketing digital es ahora. Si crees que es momento de que tú empresa, negocio o emprendimiento comience a crecer, no esperes más, nosotros podemos ayudarte. Somos especialistas en la creación de imagen corporativa y el posicionamiento en redes sociales.</p>
+                <p id="ini">Solicita tu cotización contamos con diversos paquetes, cada uno pensado en tus necesidades.</p>
+                <p></p>
+                <button type="button" class="inicial" name="button" onclick="menu('servicios')">Nuestros <br>Servicios</button>
+                <button type="button" class="inicial" name="button" onclick="menu('contacto')">Solicita tu <br>Cotización</button>
+              </div>
+        </div>
+        <div class="menu_general" id="menu_servicios">
+          <div class="topMS">
+            <img id="vec2" src="src/img/vec2.svg" alt="">
+          </div>
+          <div class="top2MS">
+            <p class="parrafo">Si buscas darle identidad visual a tu empresa y posicionarla en un entorno digital, nosotros somos tu mejor opción. Conoce nuestros servicios: </p>
+          </div>
+          <div class="leftMS">
+            <h2>Identidad Corporativa</h2>
+            <p class="parrafo">Nos encargamos de que su empresa represente visual y gráficamente sus valores, propósitos, servicios o productos. Otorgándoles una identidad propia con la que sus clientes puedan asociarlo.</p>
+          </div>
+          <div class="midMS">
+            <h2>Community Manager</h2>
+            <p class="parrafo">Nos encargamos de gestionar y administrar la comunidad digital de una empresa. Creando y manteniendo vínculos con los clientes y usuarios.</p>
+          </div>
+          <div class="rightMS">
+            <h2>Marketing Digital</h2>
+            <p class="parrafo">Somos expertos en realizar estrategias publicitarias en redes sociales que ayuden a su empresa a tener una mayor visibilidad, interacción y alcance en Internet.</p>
+          </div>
+        </div>
+        <div class="menu_general" id="menu_nosotros">
+          <div class="leftMN">
+            <img id="vec3" src="src/img/vec3.svg" alt="">
+          </div>
+          <div class="rightMN">
+            <div class="topMN">
+              <p id="somos">Somos un estudio de diseño gráfico comprometido con los valores que representan cada uno de los negocios. Por medio de la creación de identidad corporativa y community manager, buscamos ayudar al crecimiento de nuestros clientes.</p>
+            </div>
+            <div class="midMN">
+              <div class="mision">
+                <h2>Misión</h2>
+                <p class="parrafo" id="parr">Buscamos ser un estudio que deje huella en las empresas, negocios y emprendedores ayudándoles a que logren consolidar una marca y así su identidad visual, por medio de un servicio dedicado, personalizado y puntual que se ajuste a las necesidades de cada cliente ayudándoles a posicionarse de mejor manera en el mercado.</p>
+              </div>
+              <div class="vision">
+                <h2>Visión</h2>
+                <p class="parrafo" id="parr">Ser una marca hispanohablante, sinónimo de calidad, que ayude a desmitificar la idea de que un logo es una simple imagen mostrando que este representa una idea, una historia y una identidad.</p>
+              </div>
+            </div>
+            <div class="botMN">
+              <h2 id="valores"> <b>Nuestros valores:</b> <br>Respeto, Honestidad, Puntualidad, Compromiso </h2>
+            </div>
+          </div>
+        </div>
+        <div class="menu_general" id="menu_contacto">
+          <div class="leftMC">
+            <div class="topMC">
+              <h1 id="ccc">Contáctanos</h1>
+              <p class="ppp">Puedes enviarnos un mensaje a:</p>
+              <p class="ppp">68236492 - 67023231</p>
+              <p> </p>
+              <p class="ppp">o un correo electrónico a:</p>
+              <p class="ppp">info@studio137.com</p>
+            </div>
+            <div class="botMC">
+              <div class="boxx1">
+                <div class="tt">
+                  <h2 id="numero">42</h2>
+                </div>
+                <div class="bb">
+                  <h5 id="etiqueta">Clientes</h5>
+                </div>
+              </div>
+              <div class="boxx1">
+                <div class="tt">
+                  <h2 id="numero">4</h2>
+                </div>
+                <div class="bb">
+                  <h5 id="etiqueta">Campañas</h5>
+                </div>
+              </div>
+              <div class="boxx1">
+                <div class="tt">
+                  <h2 id="numero">3</h2>
+                </div>
+                <div class="bb">
+                  <h5 id="etiqueta">Premios</h5>
+                </div>
+              </div>
+              <div class="boxx1">
+                <div class="tt">
+                  <h2 id="numero">6</h2>
+                </div>
+                <div class="bb">
+                  <h5 id="etiqueta">Personal</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rightMC">
+            <img id="vec5" src="src/img/vec5.svg" alt="">
+          </div>
+        </div>
+        <div class="menu_general" id="menu_trayectoria">
+          <div class="topMT">
+            <img id="vec4" src="src/img/vec4.svg" alt="">
+          </div>
+          <div class="midMT">
+            <p id="tra">Todo comenzó como un sueño, el clásico anhelo de tener un negocio y trabajar con tu mejor amigo. Fue en 2020 cuando comenzó la pandemia y nosotros optamos por establecer Studio137.</p>
+            <p id="tra">La idea inicial fue ayudar a los nuevos emprendimientos que se estaban consolidando a la par de nosotros, ésto por medio de la creación de su marca y un diseño que les diera reconocimiento, permitiéndoles ingresar en el mercado con una imagen fuerte.</p>
+            <p id="tra">Posteriormente, a raíz de un evento en el que solicitaron nuestro apoyo creamos el área de community manager y social media manager, donde ayudamos a nuestros clientes a consolidar su identidad visual y difundir sus valores, ideas, productos y servicios en redes sociales. Todo esto se logra a través de un servicio dedicado, personalizado y puntual que se ajuste a las necesidades de cada uno siempre tomando en cuenta lo más importante: el respeto, la honestidad y el compromiso para brindar un trabajo profesional. </p>
+          </div>
+          <div class="botMT">
+            <div class="boxx">
+              <img class="pic1" src="src/logo/logo1.svg" alt="">
+            </div>
+            <div class="boxx">
+              <img class="pic1" src="src/logo/logo2.svg" alt="">
+            </div>
+            <div class="boxx">
+              <img class="pic1" src="src/logo/logo3.svg" alt="">
+            </div>
+            <div class="boxx">
+              <img class="pic1" src="src/logo/logo4.svg" alt="">
+            </div>
+            <div class="boxx">
+              <img class="pic1" src="src/logo/logo5.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="menu_general" id="menu_portafolio">
+
+        </div>
+      </div>
+      <div class="bot">
+        <div id="bot1">
+          © Copyright Studio137 2020
+        </div>
+        <div id="bot2">
+
+        </div>
+        <div id="bot3">
+          <img class="pic" src="src/whatsapp.svg" alt="" onclick="w()">
+          <img class="pic" src="src/facebook.svg" alt="" onclick="f()">
+          <img class="pic" src="src/instagram.svg" alt="" onclick="i()">
+        </div>
+        <div id="bot4">
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
