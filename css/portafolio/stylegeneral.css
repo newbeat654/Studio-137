@@ -1,0 +1,176 @@
+*{
+	/* background-color: gray; */
+	font-family: 'Poppins';
+  background-color: black;
+	overflow: hidden;
+}
+
+body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  animation: fadein ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.general{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.top{
+  display: flex;
+  width: 100%;
+  height: 13%;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+
+#logo1{
+  animation: slidein ease 1s;
+  height: 60%;
+  cursor: pointer;
+  transition: .3s;
+  opacity: .6;
+
+}
+
+#logo1:hover{
+  /* transform: scale(1.06); */
+  opacity: 1;
+}
+
+.bot{
+  width: 100%;
+  height: 87%;
+  display: inline-flex;
+}
+
+.area{
+  display: flex;
+  width: 25%;
+  height: 80%;
+  margin: auto;
+  transition: .4s;
+  background-color: #efefef;
+  opacity: .3;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  font-size: 100%;
+  animation: slidetop ease 0.5s;
+  cursor: pointer;
+}
+
+.area:hover{
+  transform: scale(1.03);
+  opacity: 1;
+}
+
+#CM{
+
+}
+
+#IC{
+
+}
+
+#MD{
+
+}
+
+
+@keyframes slidetop {
+  from {
+    transform: translatey(3%);
+  }
+
+  to {
+    transform: translatey(0%);
+  }
+}
+
+@keyframes slidein {
+  from {
+    transform: translatey(-10%);
+  }
+
+  to {
+    transform: translatey(0%);
+  }
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width:780px) and (max-width:1024px) and (orientation:landscape){
+	.top{
+		height: 20%;
+	}
+	#logo1{
+		height: 80%;
+	}
+	.bot{
+		height: 80%;
+	}
+}
+
+@media screen and (min-width:780px) and (max-width:1024px) and (orientation:portrait){
+	.top{
+		/* background-color: red; */
+		height: 13%;
+	}
+	.bot{
+		margin-top: 5%;
+		flex-direction: column;
+		/* background-color: green; */
+		height: 80%;
+	}
+	.auxx{
+		width: 100%;
+		height: 7%;
+		/* background-color: yellow; */
+	}
+	.area{
+		width: 80%;
+		height: 30%;
+		font-size: 30px;
+		}
+}
